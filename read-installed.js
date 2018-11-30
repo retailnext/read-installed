@@ -87,11 +87,7 @@ as far as the left-most node_modules folder.
 
 */
 
-try {
-  var fs = require("graceful-fs")
-} catch (er) {
-  var fs = require("fs")
-}
+var fs = require("fs")
 
 var path = require("path")
 var asyncMap = require("slide").asyncMap
